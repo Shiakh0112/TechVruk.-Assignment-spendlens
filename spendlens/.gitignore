@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Environment variables — never commit secrets
+.env
+.env.local
+.env.production
+.env.example
+
+# Build output
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Non-required planning/internal MD files (not part of assignment deliverables)
+PROJECT_PLAN.md
+ASSIGNMENT_DETAILS.md
+BLOG_POST.md
+TESTING_GUIDE.md
